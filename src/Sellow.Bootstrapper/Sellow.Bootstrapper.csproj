@@ -6,4 +6,8 @@
         <ImplicitUsings>enable</ImplicitUsings>
     </PropertyGroup>
 
+    <ItemGroup>
+        <ProjectReference Include="..\Shared\Sellow.Shared.Infrastructure\Sellow.Shared.Infrastructure.csproj"/>
+    </ItemGroup>
+
 </Project>
