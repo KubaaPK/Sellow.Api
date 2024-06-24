@@ -4,6 +4,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0D597769-018
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sellow.Boostrapper", "src\Sellow.Boostrapper\Sellow.Boostrapper.csproj", "{41529884-B298-4820-A9FD-24468B6C1B30}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{E44F7D8C-2FE0-4AD2-AA8A-84EA8822D0DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sellow.Shared.Abstractions", "src\Shared\Sellow.Shared.Abstractions\Sellow.Shared.Abstractions.csproj", "{68950A0B-4613-4ECF-A8E7-176E7C91A3D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sellow.Shared.Abstractions.Tests.Unit", "src\Shared\Sellow.Shared.Abstractions.Tests.Unit\Sellow.Shared.Abstractions.Tests.Unit.csproj", "{F8B499D2-96A6-4D09-AEFF-434E9EE9B01F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -11,11 +17,22 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{41529884-B298-4820-A9FD-24468B6C1B30} = {0D597769-018F-4B71-8BDB-5FAB0C6327E8}
+		{E44F7D8C-2FE0-4AD2-AA8A-84EA8822D0DA} = {0D597769-018F-4B71-8BDB-5FAB0C6327E8}
+		{68950A0B-4613-4ECF-A8E7-176E7C91A3D9} = {E44F7D8C-2FE0-4AD2-AA8A-84EA8822D0DA}
+		{F8B499D2-96A6-4D09-AEFF-434E9EE9B01F} = {E44F7D8C-2FE0-4AD2-AA8A-84EA8822D0DA}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{41529884-B298-4820-A9FD-24468B6C1B30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{41529884-B298-4820-A9FD-24468B6C1B30}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{41529884-B298-4820-A9FD-24468B6C1B30}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{41529884-B298-4820-A9FD-24468B6C1B30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68950A0B-4613-4ECF-A8E7-176E7C91A3D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68950A0B-4613-4ECF-A8E7-176E7C91A3D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68950A0B-4613-4ECF-A8E7-176E7C91A3D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68950A0B-4613-4ECF-A8E7-176E7C91A3D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8B499D2-96A6-4D09-AEFF-434E9EE9B01F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8B499D2-96A6-4D09-AEFF-434E9EE9B01F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8B499D2-96A6-4D09-AEFF-434E9EE9B01F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8B499D2-96A6-4D09-AEFF-434E9EE9B01F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
