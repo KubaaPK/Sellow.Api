@@ -24,6 +24,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sellow.Modules.Auth.Contrac
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sellow.Modules.Auth.Api", "src\Modules\Auth\Sellow.Modules.Auth.Api\Sellow.Modules.Auth.Api.csproj", "{F8C30681-7BC7-4C4E-94E3-36F9A95D3F4A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EmailSending", "EmailSending", "{55E5E257-00A6-4573-B069-7F4A8828E6EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sellow.Modules.EmailSending.Core", "src\Modules\EmailSending\Sellow.Modules.EmailSending.Core\Sellow.Modules.EmailSending.Core.csproj", "{69AB40BF-B696-4A53-B063-A0D5D2862744}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sellow.Modules.EmailSending.Api", "src\Modules\EmailSending\Sellow.Modules.EmailSending.Api\Sellow.Modules.EmailSending.Api.csproj", "{F27731F2-5A0B-46AC-AF06-EFCF69F1DA0D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +47,9 @@ Global
 		{C7F5BF7B-00F6-4755-96F9-AE100CF5FDF6} = {B194B815-7381-489E-A28E-D28C274CB6AA}
 		{50A81B1A-ED31-4FF5-AA33-DFF8F8855E89} = {B194B815-7381-489E-A28E-D28C274CB6AA}
 		{F8C30681-7BC7-4C4E-94E3-36F9A95D3F4A} = {B194B815-7381-489E-A28E-D28C274CB6AA}
+		{55E5E257-00A6-4573-B069-7F4A8828E6EE} = {875377FC-9B5E-4D4B-A045-EC6CD82FD75C}
+		{69AB40BF-B696-4A53-B063-A0D5D2862744} = {55E5E257-00A6-4573-B069-7F4A8828E6EE}
+		{F27731F2-5A0B-46AC-AF06-EFCF69F1DA0D} = {55E5E257-00A6-4573-B069-7F4A8828E6EE}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{41529884-B298-4820-A9FD-24468B6C1B30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -75,5 +84,13 @@ Global
 		{F8C30681-7BC7-4C4E-94E3-36F9A95D3F4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8C30681-7BC7-4C4E-94E3-36F9A95D3F4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8C30681-7BC7-4C4E-94E3-36F9A95D3F4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69AB40BF-B696-4A53-B063-A0D5D2862744}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69AB40BF-B696-4A53-B063-A0D5D2862744}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69AB40BF-B696-4A53-B063-A0D5D2862744}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69AB40BF-B696-4A53-B063-A0D5D2862744}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F27731F2-5A0B-46AC-AF06-EFCF69F1DA0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F27731F2-5A0B-46AC-AF06-EFCF69F1DA0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F27731F2-5A0B-46AC-AF06-EFCF69F1DA0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F27731F2-5A0B-46AC-AF06-EFCF69F1DA0D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

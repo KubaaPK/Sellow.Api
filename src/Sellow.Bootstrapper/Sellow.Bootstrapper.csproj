@@ -9,6 +9,7 @@
 
     <ItemGroup>
         <ProjectReference Include="..\Modules\Auth\Sellow.Modules.Auth.Api\Sellow.Modules.Auth.Api.csproj"/>
+        <ProjectReference Include="..\Modules\EmailSending\Sellow.Modules.EmailSending.Api\Sellow.Modules.EmailSending.Api.csproj"/>
         <ProjectReference Include="..\Shared\Sellow.Shared.Infrastructure\Sellow.Shared.Infrastructure.csproj"/>
     </ItemGroup>
 
