@@ -4,10 +4,19 @@
         <TargetFramework>net8.0</TargetFramework>
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
+        <UserSecretsId>1f02ff76-68b0-470b-984d-85a042ee47e3</UserSecretsId>
     </PropertyGroup>
 
     <ItemGroup>
+        <ProjectReference Include="..\Modules\Auth\Sellow.Modules.Auth.Api\Sellow.Modules.Auth.Api.csproj"/>
         <ProjectReference Include="..\Shared\Sellow.Shared.Infrastructure\Sellow.Shared.Infrastructure.csproj"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.6">
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
     </ItemGroup>
 
 </Project>
