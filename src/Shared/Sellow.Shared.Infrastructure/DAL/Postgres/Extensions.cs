@@ -4,7 +4,7 @@ using Sellow.Shared.Infrastructure.Options;
 
 namespace Sellow.Shared.Infrastructure.DAL.Postgres;
 
-internal static class Extensions
+public static class Extensions
 {
     public static IServiceCollection AddPostgres<T>(this IServiceCollection services) where T : DbContext
     {
