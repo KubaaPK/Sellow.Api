@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <FrameworkReference Include="Microsoft.AspNetCore.App"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Asp.Versioning.Http" Version="8.1.0"/>
+        <PackageReference Include="MicroElements.Swashbuckle.FluentValidation" Version="6.0.0"/>
+        <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.4"/>
+        <PackageReference Include="Serilog.AspNetCore" Version="8.0.1"/>
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2"/>
+        <PackageReference Include="Swashbuckle.AspNetCore.ReDoc" Version="6.6.2"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Sellow.Shared.Abstractions\Sellow.Shared.Abstractions.csproj"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <InternalsVisibleTo Include="Sellow.Bootstrapper"/>
+    </ItemGroup>
+</Project>
